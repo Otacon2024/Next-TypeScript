@@ -5,7 +5,11 @@ interface Props {
 }
 
 const PhotoPage = ({ params: { id, photoId } }: Props) => {
-  return <div>PhotoPage</div>;
+  return (
+    <div>
+      PhotoPage {id} {photoId}
+    </div>
+  );
 };
 
 export default PhotoPage;
