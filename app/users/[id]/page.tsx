@@ -4,7 +4,7 @@ interface Props {
   params: { id: number };
 }
 
-const UserDetailPage = () => {
+const UserDetailPage = (props: Props) => {
   return <div>UserDetailPage</div>;
 };
 
