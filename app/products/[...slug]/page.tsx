@@ -4,7 +4,7 @@ interface Props {
   params: { slug: string[] };
 }
 
-const ProductPage = (props: Props) => {
+const ProductPage = ({params}: Props) => {
   return <div>ProductPage</div>;
 };
 
