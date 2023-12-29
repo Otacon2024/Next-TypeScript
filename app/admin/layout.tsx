@@ -5,7 +5,12 @@ interface Props {
 }
 
 const AdminLayout = ({ children }: Props) => {
-  return <div>AdminLayout</div>;
+  return (
+    <div>
+      <aside>Admin Sidebar</aside>
+      <div>{children}</div>
+    </div>
+  );
 };
 
 export default AdminLayout;
