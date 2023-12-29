@@ -4,7 +4,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-const AdminLayout = () => {
+const AdminLayout = ({ children }: Props) => {
   return <div>AdminLayout</div>;
 };
 
