@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { useRouter } from "next/navigation"; // not from "next/router" (because this is part of the old pages router)!
+import { useRouter } from "next/navigation"; // instead of  "next/router" (because this is part of the old pages router)!
 
 const NewUserPage = () => {
   const router = useRouter();
