@@ -1,9 +1,12 @@
 "use client";
 import React from "react";
+import { useRouter } from "next/navigation"; // not from "next/router" (because this is part of the old pages router)!
 
 const NewUserPage = () => {
+  const router = useRouter();
+
   return (
-    <button className="btn btn-primary" onClick={() => console.log("click")}>
+    <button className="btn btn-primary" onClick={() => router.push("/users")}>
       Create
     </button>
   );
