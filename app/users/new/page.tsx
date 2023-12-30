@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const NewUserPage = () => {
-  return (
-    <div>NewUserPage</div>
-  )
-}
+  return <button className="btn btn-primary">Create</button>;
+};
 
-export default NewUserPage
+export default NewUserPage;
