@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 
-const error = () => {
+const ErrorPage = () => {
   return <div>An unexpected error occurred.</div>;
 };
 
-export default error;
+export default ErrorPage;
